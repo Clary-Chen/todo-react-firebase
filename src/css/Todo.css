@@ -1,0 +1,45 @@
+.todo{
+    /* 位置基準_時間 */
+    position: relative;
+}
+.todo_body{
+    /* 裝飾 */
+    color: rgb(214, 152, 36);
+    border: 2px solid rgb(214, 152, 36);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 250px;
+    max-width: 300px;
+    /* 位置基準_按鈕 */
+    position: relative;
+}
+.todo_text{
+    /* 自動換行 */
+    word-wrap: break-word;
+}
+.todo_buttonBox{
+    display: inline-block;
+     /* 位置_按鈕 */
+    position: absolute;
+    right: -25px;
+}
+.todo_time{
+    color: rgb(223, 187, 120);
+    font-size: 10px;
+    /* 禁止換行 */
+    white-space:nowrap; 
+    /* 位置_時間 */
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+.todo_modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo_modal__center{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.MuiSvgIcon-root{
+    color: rgb(214, 152, 36);
+}
+.MuiSvgIcon-root:hover{
+    color:  rgb(255, 192, 55);
+}
+.MuiInputBase-input{
+    word-wrap: break-word;
+}
+.header{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 8rem 0 2rem 0;
+}
